@@ -1,0 +1,25 @@
+{
+  "name": "streaming-media",
+  "version": "1.0.0",
+  "description": "streaming media assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anf7503/streaming-media.git"
+  },
+  "author": "Aaron Fleischer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/anf7503/streaming-media/issues"
+  },
+  "homepage": "https://github.com/anf7503/streaming-media#readme",
+  "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
